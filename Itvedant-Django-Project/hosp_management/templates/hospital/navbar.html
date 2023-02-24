@@ -19,14 +19,26 @@
     .navbar-brand {
       font-size: 20px;
       font-family: sans-serif;
-      background-color: blue;
+      background-color: rgb(0, 96, 22);
+      width: 15%;
+      border-radius: 20px;
+      text-align: center;
+      
 
+    }
+    .navbar-nav{
+      background-color: rgb(6, 131, 173);
+      border-radius: 20px;
+      width: 50%;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
     }
   </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: plum;">
     <a href="/" class="navbar-brand">Hospital SHIVA</a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
@@ -37,11 +49,11 @@
         <!-- No items here -->
       </div>
 
-      <div class="navbar-nav">
-        <a href="/adminclick" class="nav-item nav-link">Admin</a>
-        <a href="/doctorclick" class="nav-item nav-link">Doctor</a>
-        <a href="/patientclick" class="nav-item nav-link">Patient</a>
-        <a href="/contactus" class="nav-item nav-link">Contact Us</a>
+      <div class="navbar-nav" >
+        <a href="/adminclick" class="nav-item nav-link" style="color:white">Admin</a>
+        <a href="/doctorclick" class="nav-item nav-link" style="color:white">Doctor</a>
+        <a href="/patientclick" class="nav-item nav-link" style="color:white">Patient</a>
+        <a href="/contactus" class="nav-item nav-link" style="color:white">Contact Us</a>
       </div>
     </div>
   </nav>
